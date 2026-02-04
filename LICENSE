@@ -1,0 +1,48 @@
+GNU GENERAL PUBLIC LICENSE
+Version 3, 29 June 2007
+
+Copyright (C) 2026 José Walocha
+
+Marco Dependency Manager - Un gestionnaire de dépendances qui comprend le langage naturel.
+"Tu prends, tu partages. Point."
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <https://www.gnu.org/licenses/>.
+
+==============================================================================
+
+                    RÉSUMÉ EN FRANÇAIS (non-juridique)
+
+==============================================================================
+
+TU PEUX :
+  ✅ Utiliser ce logiciel
+  ✅ Le modifier
+  ✅ Le distribuer
+  ✅ Le vendre (mais le code reste ouvert)
+
+TU DOIS :
+  ✅ Garder cette licence
+  ✅ Publier tes modifications sous GPL
+  ✅ Indiquer les changements que tu fais
+
+TU NE PEUX PAS :
+  ❌ Fermer le code source
+  ❌ Changer la licence
+  ❌ Tenir l'auteur responsable si ça plante
+
+==============================================================================
+
+En cas de doute : https://www.gnu.org/licenses/gpl-3.0.fr.html
+
+"Depuis 40 ans ils font du copier-coller les gros nazes" - José, 2026

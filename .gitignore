@@ -1,0 +1,30 @@
+# Marco Dependency Manager - .gitignore
+
+# Matrice générée (à ne pas commiter)
+marco_deps_matrice.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Tests locaux
+test_*.txt
+my_*.txt

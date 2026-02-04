@@ -1,0 +1,138 @@
+# ============================================================================
+# MARCO DEPENDENCY KNOWLEDGE BASE
+# ============================================================================
+# Fichier d'apprentissage pour Marco - Gestionnaire de dépendances Python
+# À gaver en mode 2 (Apprentissage FREUDÉ)
+# ============================================================================
+
+# === CATÉGORIES DE BASE ===
+numpy est un module.
+pandas est un module.
+scipy est un module.
+matplotlib est un module.
+tensorflow est un module.
+pytorch est un module.
+torch est un module.
+keras est un module.
+scikit-learn est un module.
+sklearn est un module.
+PIL est un module.
+Pillow est un module.
+requests est un module.
+flask est un module.
+django est un module.
+fastapi est un module.
+sqlalchemy est un module.
+pytest est un module.
+opencv est un module.
+cv2 est un module.
+
+# === ALIAS ===
+sklearn est un alias de scikit-learn.
+torch est un alias de pytorch.
+cv2 est un alias de opencv.
+PIL est un alias de Pillow.
+
+# === CATÉGORIES ===
+numpy est un module de calcul.
+pandas est un module de données.
+scipy est un module de calcul scientifique.
+matplotlib est un module de visualisation.
+tensorflow est un module de deep learning.
+pytorch est un module de deep learning.
+keras est un module de deep learning.
+scikit-learn est un module de machine learning.
+sklearn est un module de machine learning.
+requests est un module de réseau.
+flask est un module web.
+django est un module web.
+fastapi est un module web.
+sqlalchemy est un module de base de données.
+pytest est un module de test.
+opencv est un module de vision.
+
+# === DÉPENDANCES ===
+pandas dépend de numpy.
+scipy dépend de numpy.
+matplotlib dépend de numpy.
+tensorflow dépend de numpy.
+pytorch dépend de numpy.
+keras dépend de tensorflow.
+scikit-learn dépend de numpy.
+scikit-learn dépend de scipy.
+sklearn dépend de numpy.
+sklearn dépend de scipy.
+opencv dépend de numpy.
+seaborn dépend de matplotlib.
+seaborn dépend de pandas.
+plotly dépend de pandas.
+statsmodels dépend de scipy.
+statsmodels dépend de pandas.
+xgboost dépend de numpy.
+xgboost dépend de scipy.
+lightgbm dépend de numpy.
+lightgbm dépend de scipy.
+catboost dépend de numpy.
+
+# === CONFLITS ===
+tensorflow et pytorch ont un conflit GPU.
+tensorflow et pytorch partagent CUDA.
+PIL et Pillow ont un conflit de namespace.
+cv2 et PIL ont un conflit d'import.
+
+# === VERSIONS ===
+numpy version stable est 1.24.
+pandas version stable est 2.0.
+tensorflow version stable est 2.15.
+pytorch version stable est 2.1.
+scikit-learn version stable est 1.3.
+scipy version stable est 1.11.
+matplotlib version stable est 3.8.
+flask version stable est 3.0.
+django version stable est 5.0.
+fastapi version stable est 0.109.
+
+# === PROBLÈMES COURANTS ===
+sklearn plante si scipy est trop vieux.
+tensorflow plante si numpy est trop récent.
+keras plante sans tensorflow.
+matplotlib plante sans numpy.
+pandas plante sans numpy.
+cv2 plante si opencv-python absent.
+
+# === SOLUTIONS ===
+Pour sklearn qui plante il faut mettre à jour scipy.
+Pour tensorflow qui plante il faut downgrader numpy.
+Pour keras qui plante il faut installer tensorflow.
+Pour cv2 qui plante il faut installer opencv-python.
+Pour PIL qui plante il faut installer Pillow.
+
+# === ENVIRONNEMENTS ===
+venv isole les dépendances.
+conda gère les environnements.
+virtualenv isole les dépendances.
+pip installe les modules.
+pip freeze liste les modules installés.
+requirements.txt liste les dépendances.
+
+# === COMMANDES ===
+pip install installe un module.
+pip uninstall désinstalle un module.
+pip list liste les modules.
+pip show affiche les infos d'un module.
+pip freeze affiche les versions.
+conda install installe avec conda.
+conda create crée un environnement.
+
+# === GPU / CUDA ===
+CUDA est pour le GPU nvidia.
+tensorflow-gpu utilise le GPU.
+pytorch utilise CUDA.
+cudatoolkit est requis pour GPU.
+nvidia-smi affiche le GPU.
+
+# === CONSEILS ===
+tensorflow et pytorch ensemble c'est déconseillé.
+venv avant chaque projet c'est conseillé.
+requirements.txt dans chaque projet c'est conseillé.
+pip upgrade régulièrement c'est conseillé.

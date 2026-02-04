@@ -1,0 +1,191 @@
+# ============================================================================
+# MARCO DEPENDENCY KNOWLEDGE BASE - MULTILINGUAL / 多语言 / 多言語 / 다국어
+# ============================================================================
+# Une seule base, 5 langues ! / One base, 5 languages!
+# 一个数据库，五种语言！/ 1つのベース、5言語！/ 하나의 베이스, 5개 언어!
+# ============================================================================
+
+# === NUMPY ===
+numpy is a computation module.
+numpy est un module de calcul.
+numpy是一个计算模块。
+numpyは計算モジュールです。
+numpy는 계산 모듈입니다.
+numpy stable version is 1.24.
+numpy version stable est 1.24.
+numpy稳定版本是1.24。
+numpy安定版は1.24です。
+
+# === PANDAS ===
+pandas is a data module.
+pandas est un module de données.
+pandas是一个数据模块。
+pandasはデータモジュールです。
+pandas는 데이터 모듈입니다.
+pandas depends on numpy.
+pandas dépend de numpy.
+pandas依赖numpy。
+pandasはnumpyに依存します。
+pandas는 numpy에 의존합니다.
+pandas stable version is 2.0.
+pandas version stable est 2.0.
+
+# === SCIPY ===
+scipy is a scientific computing module.
+scipy est un module de calcul scientifique.
+scipy是一个科学计算模块。
+scipyは科学計算モジュールです。
+scipy depends on numpy.
+scipy dépend de numpy.
+scipy依赖numpy。
+scipyはnumpyに依存します。
+
+# === MATPLOTLIB ===
+matplotlib is a visualization module.
+matplotlib est un module de visualisation.
+matplotlib是一个可视化模块。
+matplotlibは可視化モジュールです。
+matplotlib depends on numpy.
+matplotlib dépend de numpy.
+matplotlib依赖numpy。
+
+# === TENSORFLOW ===
+tensorflow is a deep learning module.
+tensorflow est un module de deep learning.
+tensorflow是一个深度学习模块。
+tensorflowはディープラーニングモジュールです。
+tensorflow는 딥러닝 모듈입니다.
+tensorflow depends on numpy.
+tensorflow dépend de numpy.
+tensorflow依赖numpy。
+tensorflow stable version is 2.15.
+tensorflow version stable est 2.15.
+
+# === PYTORCH ===
+pytorch is a deep learning module.
+pytorch est un module de deep learning.
+pytorch是一个深度学习模块。
+pytorchはディープラーニングモジュールです。
+pytorch는 딥러닝 모듈입니다.
+pytorch depends on numpy.
+pytorch dépend de numpy.
+pytorch依赖numpy。
+pytorch stable version is 2.1.
+pytorch version stable est 2.1.
+torch is an alias of pytorch.
+torch est un alias de pytorch.
+torch是pytorch的别名。
+
+# === CONFLICTS / 冲突 / コンフリクト ===
+tensorflow and pytorch have a GPU conflict.
+tensorflow et pytorch ont un conflit GPU.
+tensorflow和pytorch有GPU冲突。
+tensorflowとpytorchはGPUコンフリクトがあります。
+tensorflow와 pytorch는 GPU 충돌이 있습니다.
+
+PIL and Pillow have a namespace conflict.
+PIL et Pillow ont un conflit de namespace.
+PIL和Pillow有命名冲突。
+
+# === KERAS ===
+keras is a deep learning module.
+keras est un module de deep learning.
+keras是一个深度学习模块。
+keras depends on tensorflow.
+keras dépend de tensorflow.
+keras依赖tensorflow。
+kerasはtensorflowに依存します。
+
+# === SCIKIT-LEARN / SKLEARN ===
+scikit-learn is a machine learning module.
+scikit-learn est un module de machine learning.
+scikit-learn是一个机器学习模块。
+sklearn is an alias of scikit-learn.
+sklearn est un alias de scikit-learn.
+sklearn是scikit-learn的别名。
+scikit-learn depends on numpy.
+scikit-learn dépend de numpy.
+scikit-learn depends on scipy.
+scikit-learn dépend de scipy.
+
+# === PROBLEMS & SOLUTIONS / 问题与解决 ===
+sklearn crashes if scipy is too old.
+sklearn plante si scipy est trop vieux.
+sklearn崩溃如果scipy太旧。
+sklearnはscipyが古いとクラッシュします。
+
+To fix sklearn upgrade scipy.
+Pour sklearn qui plante il faut mettre à jour scipy.
+修复sklearn需要升级scipy。
+sklearnを修正するにはscipyをアップグレードします。
+
+tensorflow crashes if numpy is too recent.
+tensorflow plante si numpy est trop récent.
+tensorflow崩溃如果numpy太新。
+
+To fix tensorflow downgrade numpy.
+Pour tensorflow qui plante il faut downgrader numpy.
+修复tensorflow需要降级numpy。
+
+keras crashes without tensorflow.
+keras plante sans tensorflow.
+keras崩溃没有tensorflow。
+
+To fix keras install tensorflow.
+Pour keras qui plante il faut installer tensorflow.
+修复keras需要安装tensorflow。
+
+# === WEB MODULES ===
+flask is a web module.
+flask est un module web.
+flask是一个网页模块。
+flaskはウェブモジュールです。
+flask stable version is 3.0.
+
+django is a web module.
+django est un module web.
+django是一个网页模块。
+djangoはウェブモジュールです。
+django stable version is 5.0.
+
+fastapi is a web module.
+fastapi est un module web.
+fastapi是一个网页模块。
+
+# === REQUESTS ===
+requests is a network module.
+requests est un module de réseau.
+requests是一个网络模块。
+requestsはネットワークモジュールです。
+
+# === OPENCV ===
+opencv is a computer vision module.
+opencv est un module de vision.
+opencv是一个视觉模块。
+cv2 is an alias of opencv.
+cv2 est un alias de opencv.
+cv2是opencv的别名。
+opencv depends on numpy.
+opencv dépend de numpy.
+
+# === TIPS / 建议 / アドバイス ===
+tensorflow and pytorch together is not recommended.
+tensorflow et pytorch ensemble c'est déconseillé.
+tensorflow和pytorch一起不推荐。
+tensorflowとpytorchの併用は非推奨です。
+
+venv before each project is recommended.
+venv avant chaque projet c'est conseillé.
+每个项目用venv推荐。
+各プロジェクトでvenvの使用を推奨します。
+
+# === ENVIRONMENTS ===
+venv isolates dependencies.
+venv isole les dépendances.
+venv隔离依赖。
+venvは依存関係を分離します。
+
+pip installs modules.
+pip installe les modules.
+pip安装模块。
+pipはモジュールをインストールします。

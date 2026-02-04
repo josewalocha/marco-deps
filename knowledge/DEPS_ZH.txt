@@ -1,0 +1,110 @@
+# ============================================================================
+# MARCO 依赖知识库 - 中文
+# ============================================================================
+# Marco学习文件 - Python依赖管理器
+# 加载方式: python marco_deps.py --learn DEPS_ZH.txt
+# ============================================================================
+
+# === 基本分类 ===
+numpy是一个模块。
+pandas是一个模块。
+scipy是一个模块。
+matplotlib是一个模块。
+tensorflow是一个模块。
+pytorch是一个模块。
+torch是一个模块。
+keras是一个模块。
+scikit-learn是一个模块。
+sklearn是一个模块。
+requests是一个模块。
+flask是一个模块。
+django是一个模块。
+fastapi是一个模块。
+
+# === 别名 ===
+sklearn是scikit-learn的别名。
+torch是pytorch的别名。
+cv2是opencv的别名。
+PIL是Pillow的别名。
+
+# === 模块类型 ===
+numpy是一个计算模块。
+pandas是一个数据模块。
+scipy是一个科学计算模块。
+matplotlib是一个可视化模块。
+tensorflow是一个深度学习模块。
+pytorch是一个深度学习模块。
+keras是一个深度学习模块。
+scikit-learn是一个机器学习模块。
+requests是一个网络模块。
+flask是一个网页模块。
+django是一个网页模块。
+
+# === 依赖关系 ===
+pandas依赖numpy。
+scipy依赖numpy。
+matplotlib依赖numpy。
+tensorflow依赖numpy。
+pytorch依赖numpy。
+keras依赖tensorflow。
+scikit-learn依赖numpy。
+scikit-learn依赖scipy。
+sklearn依赖numpy。
+sklearn依赖scipy。
+opencv依赖numpy。
+seaborn依赖matplotlib。
+seaborn依赖pandas。
+xgboost依赖numpy。
+lightgbm依赖numpy。
+
+# === 冲突 ===
+tensorflow和pytorch有GPU冲突。
+tensorflow和pytorch共享CUDA。
+PIL和Pillow有命名冲突。
+
+# === 版本 ===
+numpy稳定版本是1.24。
+pandas稳定版本是2.0。
+tensorflow稳定版本是2.15。
+pytorch稳定版本是2.1。
+scikit-learn稳定版本是1.3。
+scipy稳定版本是1.11。
+
+# === 常见问题 ===
+sklearn崩溃如果scipy太旧。
+tensorflow崩溃如果numpy太新。
+keras崩溃没有tensorflow。
+matplotlib崩溃没有numpy。
+pandas崩溃没有numpy。
+
+# === 解决方案 ===
+修复sklearn需要升级scipy。
+修复tensorflow需要降级numpy。
+修复keras需要安装tensorflow。
+修复cv2需要安装opencv-python。
+修复PIL需要安装Pillow。
+
+# === 环境 ===
+venv隔离依赖。
+conda管理环境。
+pip安装模块。
+pip freeze列出模块。
+requirements.txt列出依赖。
+
+# === 命令 ===
+pip install安装模块。
+pip uninstall卸载模块。
+pip list显示模块。
+conda install用conda安装。
+conda create创建环境。
+
+# === GPU相关 ===
+CUDA用于nvidia GPU。
+tensorflow-gpu使用GPU。
+pytorch使用CUDA。
+cudatoolkit是GPU必需的。
+
+# === 建议 ===
+tensorflow和pytorch一起不推荐。
+每个项目用venv推荐。
+每个项目有requirements.txt推荐。

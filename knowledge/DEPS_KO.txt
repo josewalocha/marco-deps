@@ -1,0 +1,110 @@
+# ============================================================================
+# MARCO 의존성 지식 베이스 - 한국어
+# ============================================================================
+# Marco 학습 파일 - Python 의존성 관리자
+# 로드: python marco_deps.py --learn DEPS_KO.txt
+# ============================================================================
+
+# === 기본 카테고리 ===
+numpy는 모듈입니다.
+pandas는 모듈입니다.
+scipy는 모듈입니다.
+matplotlib는 모듈입니다.
+tensorflow는 모듈입니다.
+pytorch는 모듈입니다.
+torch는 모듈입니다.
+keras는 모듈입니다.
+scikit-learn는 모듈입니다.
+sklearn는 모듈입니다.
+requests는 모듈입니다.
+flask는 모듈입니다.
+django는 모듈입니다.
+fastapi는 모듈입니다.
+
+# === 별칭 ===
+sklearn는 scikit-learn의 별칭입니다.
+torch는 pytorch의 별칭입니다.
+cv2는 opencv의 별칭입니다.
+PIL는 Pillow의 별칭입니다.
+
+# === 모듈 유형 ===
+numpy는 계산 모듈입니다.
+pandas는 데이터 모듈입니다.
+scipy는 과학 계산 모듈입니다.
+matplotlib는 시각화 모듈입니다.
+tensorflow는 딥러닝 모듈입니다.
+pytorch는 딥러닝 모듈입니다.
+keras는 딥러닝 모듈입니다.
+scikit-learn는 머신러닝 모듈입니다.
+requests는 네트워크 모듈입니다.
+flask는 웹 모듈입니다.
+django는 웹 모듈입니다.
+
+# === 의존성 ===
+pandas는 numpy에 의존합니다.
+scipy는 numpy에 의존합니다.
+matplotlib는 numpy에 의존합니다.
+tensorflow는 numpy에 의존합니다.
+pytorch는 numpy에 의존합니다.
+keras는 tensorflow에 의존합니다.
+scikit-learn는 numpy에 의존합니다.
+scikit-learn는 scipy에 의존합니다.
+sklearn는 numpy에 의존합니다.
+sklearn는 scipy에 의존합니다.
+opencv는 numpy에 의존합니다.
+seaborn는 matplotlib에 의존합니다.
+seaborn는 pandas에 의존합니다.
+xgboost는 numpy에 의존합니다.
+lightgbm는 numpy에 의존합니다.
+
+# === 충돌 ===
+tensorflow와 pytorch는 GPU 충돌이 있습니다.
+tensorflow와 pytorch는 CUDA를 공유합니다.
+PIL와 Pillow는 네임스페이스 충돌이 있습니다.
+
+# === 버전 ===
+numpy 안정 버전은 1.24입니다.
+pandas 안정 버전은 2.0입니다.
+tensorflow 안정 버전은 2.15입니다.
+pytorch 안정 버전은 2.1입니다.
+scikit-learn 안정 버전은 1.3입니다.
+scipy 안정 버전은 1.11입니다.
+
+# === 일반적인 문제 ===
+sklearn는 scipy가 오래되면 충돌합니다.
+tensorflow는 numpy가 너무 새로우면 충돌합니다.
+keras는 tensorflow 없이 충돌합니다.
+matplotlib는 numpy 없이 충돌합니다.
+pandas는 numpy 없이 충돌합니다.
+
+# === 해결책 ===
+sklearn를 수정하려면 scipy를 업그레이드합니다.
+tensorflow를 수정하려면 numpy를 다운그레이드합니다.
+keras를 수정하려면 tensorflow를 설치합니다.
+cv2를 수정하려면 opencv-python를 설치합니다.
+PIL를 수정하려면 Pillow를 설치합니다.
+
+# === 환경 ===
+venv는 의존성을 격리합니다.
+conda는 환경을 관리합니다.
+pip는 모듈을 설치합니다.
+pip freeze는 모듈을 나열합니다.
+requirements.txt는 의존성을 나열합니다.
+
+# === 명령어 ===
+pip install는 모듈을 설치합니다.
+pip uninstall는 모듈을 제거합니다.
+pip list는 모듈을 표시합니다.
+conda install는 conda로 설치합니다.
+conda create는 환경을 생성합니다.
+
+# === GPU 관련 ===
+CUDA는 nvidia GPU용입니다.
+tensorflow-gpu는 GPU를 사용합니다.
+pytorch는 CUDA를 사용합니다.
+cudatoolkit는 GPU에 필요합니다.
+
+# === 조언 ===
+tensorflow와 pytorch 함께 사용은 권장하지 않습니다.
+각 프로젝트에 venv 사용을 권장합니다.
+각 프로젝트에 requirements.txt를 권장합니다.

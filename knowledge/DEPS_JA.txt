@@ -1,0 +1,110 @@
+# ============================================================================
+# MARCO 依存関係ナレッジベース - 日本語
+# ============================================================================
+# Marco学習ファイル - Python依存関係マネージャー
+# 読み込み: python marco_deps.py --learn DEPS_JA.txt
+# ============================================================================
+
+# === 基本カテゴリ ===
+numpyはモジュールです。
+pandasはモジュールです。
+scipyはモジュールです。
+matplotlibはモジュールです。
+tensorflowはモジュールです。
+pytorchはモジュールです。
+torchはモジュールです。
+kerasはモジュールです。
+scikit-learnはモジュールです。
+sklearnはモジュールです。
+requestsはモジュールです。
+flaskはモジュールです。
+djangoはモジュールです。
+fastapiはモジュールです。
+
+# === エイリアス ===
+sklearnはscikit-learnのエイリアスです。
+torchはpytorchのエイリアスです。
+cv2はopencvのエイリアスです。
+PILはPillowのエイリアスです。
+
+# === モジュールタイプ ===
+numpyは計算モジュールです。
+pandasはデータモジュールです。
+scipyは科学計算モジュールです。
+matplotlibは可視化モジュールです。
+tensorflowはディープラーニングモジュールです。
+pytorchはディープラーニングモジュールです。
+kerasはディープラーニングモジュールです。
+scikit-learnは機械学習モジュールです。
+requestsはネットワークモジュールです。
+flaskはウェブモジュールです。
+djangoはウェブモジュールです。
+
+# === 依存関係 ===
+pandasはnumpyに依存します。
+scipyはnumpyに依存します。
+matplotlibはnumpyに依存します。
+tensorflowはnumpyに依存します。
+pytorchはnumpyに依存します。
+kerasはtensorflowに依存します。
+scikit-learnはnumpyに依存します。
+scikit-learnはscipyに依存します。
+sklearnはnumpyに依存します。
+sklearnはscipyに依存します。
+opencvはnumpyに依存します。
+seabornはmatplotlibに依存します。
+seabornはpandasに依存します。
+xgboostはnumpyに依存します。
+lightgbmはnumpyに依存します。
+
+# === コンフリクト ===
+tensorflowとpytorchはGPUコンフリクトがあります。
+tensorflowとpytorchはCUDAを共有します。
+PILとPillowは名前空間コンフリクトがあります。
+
+# === バージョン ===
+numpy安定版は1.24です。
+pandas安定版は2.0です。
+tensorflow安定版は2.15です。
+pytorch安定版は2.1です。
+scikit-learn安定版は1.3です。
+scipy安定版は1.11です。
+
+# === よくある問題 ===
+sklearnはscipyが古いとクラッシュします。
+tensorflowはnumpyが新しすぎるとクラッシュします。
+kerasはtensorflowなしでクラッシュします。
+matplotlibはnumpyなしでクラッシュします。
+pandasはnumpyなしでクラッシュします。
+
+# === 解決策 ===
+sklearnを修正するにはscipyをアップグレードします。
+tensorflowを修正するにはnumpyをダウングレードします。
+kerasを修正するにはtensorflowをインストールします。
+cv2を修正するにはopencv-pythonをインストールします。
+PILを修正するにはPillowをインストールします。
+
+# === 環境 ===
+venvは依存関係を分離します。
+condaは環境を管理します。
+pipはモジュールをインストールします。
+pip freezeはモジュールをリストします。
+requirements.txtは依存関係をリストします。
+
+# === コマンド ===
+pip installはモジュールをインストールします。
+pip uninstallはモジュールを削除します。
+pip listはモジュールを表示します。
+conda installはcondaでインストールします。
+conda createは環境を作成します。
+
+# === GPU関連 ===
+CUDAはnvidia GPU用です。
+tensorflow-gpuはGPUを使用します。
+pytorchはCUDAを使用します。
+cudatoolkitはGPUに必要です。
+
+# === アドバイス ===
+tensorflowとpytorchの併用は非推奨です。
+各プロジェクトでvenvの使用を推奨します。
+各プロジェクトにrequirements.txtを推奨します。

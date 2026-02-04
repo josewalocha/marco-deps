@@ -1,0 +1,138 @@
+# ============================================================================
+# MARCO DEPENDENCY KNOWLEDGE BASE - ENGLISH
+# ============================================================================
+# Learning file for Marco - Python Dependency Manager
+# Load with: python marco_deps.py --learn DEPS_EN.txt
+# ============================================================================
+
+# === BASE CATEGORIES ===
+numpy is a module.
+pandas is a module.
+scipy is a module.
+matplotlib is a module.
+tensorflow is a module.
+pytorch is a module.
+torch is a module.
+keras is a module.
+scikit-learn is a module.
+sklearn is a module.
+PIL is a module.
+Pillow is a module.
+requests is a module.
+flask is a module.
+django is a module.
+fastapi is a module.
+sqlalchemy is a module.
+pytest is a module.
+opencv is a module.
+cv2 is a module.
+
+# === ALIASES ===
+sklearn is an alias of scikit-learn.
+torch is an alias of pytorch.
+cv2 is an alias of opencv.
+PIL is an alias of Pillow.
+
+# === CATEGORIES ===
+numpy is a computation module.
+pandas is a data module.
+scipy is a scientific computing module.
+matplotlib is a visualization module.
+tensorflow is a deep learning module.
+pytorch is a deep learning module.
+keras is a deep learning module.
+scikit-learn is a machine learning module.
+sklearn is a machine learning module.
+requests is a network module.
+flask is a web module.
+django is a web module.
+fastapi is a web module.
+sqlalchemy is a database module.
+pytest is a testing module.
+opencv is a computer vision module.
+
+# === DEPENDENCIES ===
+pandas depends on numpy.
+scipy depends on numpy.
+matplotlib depends on numpy.
+tensorflow depends on numpy.
+pytorch depends on numpy.
+keras depends on tensorflow.
+scikit-learn depends on numpy.
+scikit-learn depends on scipy.
+sklearn depends on numpy.
+sklearn depends on scipy.
+opencv depends on numpy.
+seaborn depends on matplotlib.
+seaborn depends on pandas.
+plotly depends on pandas.
+statsmodels depends on scipy.
+statsmodels depends on pandas.
+xgboost depends on numpy.
+xgboost depends on scipy.
+lightgbm depends on numpy.
+lightgbm depends on scipy.
+catboost depends on numpy.
+
+# === CONFLICTS ===
+tensorflow and pytorch have a GPU conflict.
+tensorflow and pytorch share CUDA.
+PIL and Pillow have a namespace conflict.
+cv2 and PIL have an import conflict.
+
+# === VERSIONS ===
+numpy stable version is 1.24.
+pandas stable version is 2.0.
+tensorflow stable version is 2.15.
+pytorch stable version is 2.1.
+scikit-learn stable version is 1.3.
+scipy stable version is 1.11.
+matplotlib stable version is 3.8.
+flask stable version is 3.0.
+django stable version is 5.0.
+fastapi stable version is 0.109.
+
+# === COMMON ISSUES ===
+sklearn crashes if scipy is too old.
+tensorflow crashes if numpy is too recent.
+keras crashes without tensorflow.
+matplotlib crashes without numpy.
+pandas crashes without numpy.
+cv2 crashes if opencv-python is missing.
+
+# === SOLUTIONS ===
+To fix sklearn upgrade scipy.
+To fix tensorflow downgrade numpy.
+To fix keras install tensorflow.
+To fix cv2 install opencv-python.
+To fix PIL install Pillow.
+
+# === ENVIRONMENTS ===
+venv isolates dependencies.
+conda manages environments.
+virtualenv isolates dependencies.
+pip installs modules.
+pip freeze lists installed modules.
+requirements.txt lists dependencies.
+
+# === COMMANDS ===
+pip install installs a module.
+pip uninstall removes a module.
+pip list shows modules.
+pip show displays module info.
+pip freeze shows versions.
+conda install installs with conda.
+conda create creates an environment.
+
+# === GPU / CUDA ===
+CUDA is for nvidia GPU.
+tensorflow-gpu uses GPU.
+pytorch uses CUDA.
+cudatoolkit is required for GPU.
+nvidia-smi shows GPU info.
+
+# === TIPS ===
+tensorflow and pytorch together is not recommended.
+venv before each project is recommended.
+requirements.txt in each project is recommended.
+pip upgrade regularly is recommended.

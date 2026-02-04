@@ -207,4 +207,4 @@ See [LICENSE](LICENSE) for details.
 
 ---
 
-*"For 40 years they've been copy-pasting, the big noobs"* - José, 2026
+
